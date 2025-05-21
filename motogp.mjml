@@ -1,11 +1,11 @@
 <mjml version="3.3.3">
   <mj-body background-color="#F4F4F4" color="#55575d" font-family="Arial, sans-serif">
-    <mj-section background-color="#C8102E" padding="20px 0" text-align="center">
+    <mj-section background-color="#8B0000" padding="20px 0" text-align="center">
       <mj-column>
         <mj-text align="center" color="#ffffff" font-size="24px" font-weight="bold">
           ¡Bienvenido al Sorteo de MotoGP!
         </mj-text>
-        <mj-image align="center" padding="10px 25px" src="https://www.motorbikemag.es/wp-content/uploads/2024/11/motogp-presenta-nueva-imagen-1-760x428.jpg" width="400px"></mj-image>
+        <mj-image align="center" padding="10px 25px" src="https://dosruedas.feriavalencia.com/wp-content/uploads/2022/03/cropped-Logo_2RUEDAS_2022_150ppp-1.png" width="400px"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section background-color="#FF5733" padding="20px 0" text-align="center">
@@ -28,7 +28,7 @@
         <mj-image align="center" padding="10px 25px" src="https://e00-xlk-ue-marca.uecdn.es/uploads/2025/02/04/67a245ed4b03e.jpeg" width="400px"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#C8102E" padding="20px 0" text-align="center">
+    <mj-section background-color="#8B0000" padding="20px 0" text-align="center">
       <mj-column>
         <mj-button border="3px solid rgb(0, 0, 0)" border-radius="10px" href="https://motogppremier.motogp.com/es/2025-motogp-valencia" font-family="Helvetica" background-color="#ffffff" color="black" border="2px solid #C8102E">
           ¡PARTICIPA YA!
