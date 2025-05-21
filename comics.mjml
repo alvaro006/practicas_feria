@@ -1,0 +1,187 @@
+<mjml>
+  <mj-head>
+    <mj-title>Boletín Salón del Cómic de València</mj-title>
+    <mj-font name="Bangers" href="https://fonts.googleapis.com/css?family=Bangers" />
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <mj-attributes>
+      <mj-text font-family="Montserrat, Arial, sans-serif" color="#333333" />
+      <mj-button font-family="Montserrat, Arial, sans-serif" border-radius="8px" font-weight="bold" />
+      <mj-section padding="0" background-color="transparent" />
+    </mj-attributes>
+    <mj-style>
+      /* Estilos para encabezados con fuente de cómic */
+      .header-comic {
+        font-family: 'Bangers', cursive;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+      }
+      /* Sombra para columnas de contenido (simula tarjetas) */
+      .card-shadow {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Sombra pronunciada para destacar las tarjetas blancas */
+        border-radius: 12px;
+        overflow: hidden;
+      }
+      /* Efecto de borde en botón para resaltar */
+      .button-border {
+        border: 2px solid #333333; /* Borde oscuro para contraste */
+      }
+      /* CLASE PARA EL DEGRADADO GLOBAL DEL BODY (Amarillo Suave a Verde Menta Apagado) */
+      .mj-body-gradient {
+        background-image: -webkit-linear-gradient(to bottom, #F0E68C, #98FB98); /* Amarillo Suave a Verde Menta */
+        background-image: linear-gradient(to bottom, #F0E68C, #98FB98);
+        background-color: #F0E68C; /* Fallback */
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body css-class="mj-body-gradient"> <mj-section padding-top="25px" padding-bottom="0">
+      <mj-column>
+        <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_Mail_600x240px_Cartel_Comic_2025.jpg" alt="Logo Salón del Cómic de València" align="center" padding="15px 0"></mj-image>
+        <mj-text css-class="header-comic" font-size="42px" color="#333333" align="center" padding="10px 25px 20px 25px">
+          ¡Noticias Frescas del Salón!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider border-color="#333333" border-style="dashed" border-width="3px" width="70%" padding="10px 0"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="15px 0">
+      <mj-column>
+        <mj-text align="center" color="#333333" font-size="22px" font-weight="bold">
+          Del 28 de Febrero al 2 de Marzo de 2026
+        </mj-text>
+        <mj-text align="center" color="#333333" font-size="18px" padding-top="5px">
+          Feria Valencia - ¡La aventura te espera!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider border-color="#6B8E23" border-style="solid" border-width="4px" width="80%" padding="15px 0"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="25px">
+      <mj-column css-class="card-shadow" background-color="#FFFFFF">
+        <mj-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQBn-eqt3YAcxkMqmihqC0zGeBV8NmruiPtw&s" alt="Artista Destacado del Salón" align="center" width="250px" padding-bottom="15px"></mj-image>
+        <mj-text font-size="28px" font-weight="bold" align="center" padding="0 25px 10px 25px">
+          ¡Confirmado: Super-Artista Invitado!
+        </mj-text>
+        <mj-text font-size="16px" line-height="24px" padding="0 25px 15px 25px">
+          Estamos emocionados de anunciar que <strong>Paco Roca</strong> será uno de nuestros invitados estrella este año. Conocido por su trabajo llamado <strong>Arrugas</strong>, ofrecerá un panel exclusivo y sesiones de firmas. ¡Prepárate para conocer a una leyenda!
+        </mj-text>
+        <mj-button background-color="#A0522D" color="#FFFFFF" href="https://www.saloncomicvalencia.com/artista-invitado" padding-bottom="20px" font-size="16px"> Más sobre Paco Roca</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider border-color="#D4AF37" border-style="dotted" border-width="2px" width="60%" padding="20px 0"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="30px" padding-bottom="30px">
+      <mj-column>
+        <mj-text css-class="header-comic" font-size="30px" color="#333333" align="center" padding-bottom="15px">
+          ¡Oferta Exclusiva: Entradas Anticipadas!
+        </mj-text>
+        <mj-text font-size="18px" color="#333333" align="center" padding="0 25px 20px 25px">
+          Consigue tus entradas con un **20% de descuento** si las compras antes del 31 de Enero. ¡No dejes pasar esta oportunidad de vivir la magia del cómic!
+        </mj-text>
+        <mj-button css-class="button-border" background-color="#8A9A5B" color="#FFFFFF" href="https://www.saloncomicvalencia.com/entradas" font-size="18px" padding-bottom="20px"> Comprar Entradas Ahora</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider border-color="#A0522D" border-style="double" border-width="5px" width="75%" padding="25px 0"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="25px">
+      <mj-column>
+        <mj-text font-size="26px" font-weight="bold" align="center" padding-bottom="20px" color="#333333">
+          Novedades que no querrás perderte:
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-bottom="25px">
+      <mj-group>
+        <mj-column width="49%" css-class="card-shadow" background-color="#FFFFFF" border-radius="12px">
+          <mj-image src="https://infonegocios.info/content/images/2024/07/07/471432/own-valencia-1600x900.jpg" alt="Zona Gaming y RV" padding-bottom="10px"></mj-image>
+          <mj-text font-size="20px" font-weight="bold" padding="0 15px">
+            Zona Gaming y Realidad Virtual
+          </mj-text>
+          <mj-text font-size="14px" line-height="20px" padding="0 15px 15px 15px">
+            Descubre las últimas novedades en videojuegos y sumérgete en experiencias de RV.
+          </mj-text>
+          <mj-button background-color="#8A9A5B" color="#FFFFFF" href="https://www.saloncomicvalencia.com/gaming" padding-bottom="20px" font-size="14px"> Ver Más</mj-button>
+        </mj-column>
+        <mj-column width="49%" css-class="card-shadow" background-color="#FFFFFF" border-radius="12px">
+          <mj-image src="https://www.saloncomicvalencia.com/wp-content/uploads/2023/11/COSMASTERS.jpg" width="157px" alt="Concursos de Cosplay" padding-bottom="10px"></mj-image>
+          <mj-text font-size="20px" font-weight="bold" padding="0 15px">
+            Concursos de Cosplay Épicos
+          </mj-text>
+          <mj-text font-size="14px" line-height="20px" padding="0 15px 15px 15px">
+            Inscríbete y muestra tu mejor disfraz. ¡Premios increíbles esperan!
+          </mj-text>
+          <mj-button background-color="#8A9A5B" color="#FFFFFF" href="https://www.saloncomicvalencia.com/cosplay" padding-bottom="20px" font-size="14px"> Ver Más</mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider border-color="#D4AF37" border-style="solid" border-width="3px" width="90%" padding="20px 0"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="30px" padding-bottom="30px">
+      <mj-column>
+        <mj-text css-class="header-comic" font-size="28px" color="#333333" align="center" padding-bottom="15px">
+          ¡Prepárate para la aventura!
+        </mj-text>
+        <mj-button background-color="#A0522D" color="#FFFFFF" href="https://www.saloncomicvalencia.com" font-size="20px"> Visita la Web Oficial del Salón</mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="10px 0">
+      <mj-column>
+        <mj-text align="center" color="#333333" font-size="16px" padding-bottom="10px">
+          Síguenos en redes:
+        </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://www.facebook.com/saloncomicvalencia" background-color="#3b5998"></mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/saloncomicvalencia" background-color="#E4405F"></mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/saloncomicvlc" background-color="#1DA1F2"></mj-social-element>
+          <mj-social-element name="youtube" href="https://www.youtube.com/saloncomicvalencia" background-color="#FF0000"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-divider border-color="#333333" border-style="solid" border-width="1px" width="100%" padding="15px 0"></mj-divider>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="20px 0">
+      <mj-column>
+        <mj-text align="center" color="#333333" font-size="12px">
+          © 2025 Salón del Cómic de València. Todos los derechos reservados.
+        </mj-text>
+        <mj-text align="center" color="#333333" font-size="12px" padding-top="5px">
+          Si no deseas recibir más correos, <a href="[ENLACE_BAJA]" style="color:#333333;">haz clic aquí para darte de baja</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

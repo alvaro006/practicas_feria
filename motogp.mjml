@@ -1,6 +1,25 @@
 <mjml version="3.3.3">
+  <mj-head>
+    <mj-style>
+      .gradient-section-middle {
+        /* Degradado de rojo llamativo a naranja */
+        background-image: -webkit-linear-gradient(to bottom, #FF0000, #FF5733);
+        background-image: linear-gradient(to bottom, #FF0000, #FF5733);
+        /* Fallback */
+        background-color: #FF5733; /* Elige el color que prefieras si el degradado no se ve */
+      }
+      .gradient-section-return {
+        /* Degradado de naranja a rojo llamativo */
+        background-image: -webkit-linear-gradient(to bottom, #FF5733, #FF0000);
+        background-image: linear-gradient(to bottom, #FF5733, #FF0000);
+        /* Fallback */
+        background-color: #FF0000;
+      }
+    </mj-style>
+  </mj-head>
   <mj-body background-color="#F4F4F4" color="#55575d" font-family="Arial, sans-serif">
-    <mj-section background-color="#8B0000" padding="20px 0" text-align="center">
+
+    <mj-section background-color="#FF0000" padding="20px 0" text-align="center">
       <mj-column>
         <mj-text align="center" color="#ffffff" font-size="24px" font-weight="bold">
           ¡Bienvenido al Sorteo de MotoGP!
@@ -8,7 +27,8 @@
         <mj-image align="center" padding="10px 25px" src="https://dosruedas.feriavalencia.com/wp-content/uploads/2022/03/cropped-Logo_2RUEDAS_2022_150ppp-1.png" width="400px"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#FF5733" padding="20px 0" text-align="center">
+
+    <mj-section css-class="gradient-section-middle" padding="20px 0" text-align="center">
       <mj-column>
         <mj-text align="center" color="#000000" font-size="30px" line-height="28px" padding="0px 25px 15px 25px">
           ¡NO TE PIERDAS LAS DOS ENTRADAS GRATIS DE CHESTE!
@@ -16,6 +36,7 @@
         <mj-divider border-width="5px" border-style="solid" border-color="black" />
       </mj-column>
     </mj-section>
+
     <mj-section background-color="#FF5733" padding="20px 0" text-align="center">
       <mj-column>
         <mj-text align="center" color="#000000" font-size="15px" line-height="28px" padding="0px 25px">
@@ -25,16 +46,30 @@
     </mj-section>
     <mj-section background-color="#FF5733" padding="20px 0" text-align="center">
       <mj-column>
-        <mj-image align="center" padding="10px 25px" src="https://e00-xlk-ue-marca.uecdn.es/uploads/2025/02/04/67a245ed4b03e.jpeg" width="400px"></mj-image>
+        <mj-image align="center" padding="10px 25px" src="https://e00-xlk-ue-marca.uecdn.es/uploads/2025/02/04/67a245ed4b03e.jpeg" width="500px"></mj-image>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#8B0000" padding="20px 0" text-align="center">
+    
+
+    <mj-section css-class="gradient-section-return" padding="20px 0" text-align="center">
       <mj-column>
-        <mj-button border="3px solid rgb(0, 0, 0)" border-radius="10px" href="https://motogppremier.motogp.com/es/2025-motogp-valencia" font-family="Helvetica" background-color="#ffffff" color="black" border="2px solid #C8102E">
+      
+        <mj-button border="3px solid rgb(0, 0, 0)" border-radius="10px" href="https://motogppremier.motogp.com/es/2025-motogp-valencia" font-family="Helvetica" background-color="#ffffff" color="black" border="2px solid #FF0000">
           ¡PARTICIPA YA!
         </mj-button>
+          <mj-text align="center" color="#333333" font-size="16px" padding-bottom="10px">
+          Síguenos en redes:
+        </mj-text>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="https://www.facebook.com/saloncomicvalencia" background-color="#3b5998"></mj-social-element>
+          <mj-social-element name="instagram" href="https://www.instagram.com/saloncomicvalencia" background-color="#E4405F"></mj-social-element>
+          <mj-social-element name="twitter" href="https://twitter.com/saloncomicvlc" background-color="#1DA1F2"></mj-social-element>
+          <mj-social-element name="youtube" href="https://www.youtube.com/saloncomicvalencia" background-color="#FF0000"></mj-social-element>
+        </mj-social>
       </mj-column>
+      
     </mj-section>
+
     <mj-section background-color="#F4F4F4" padding="20px 0" text-align="center">
       <mj-column>
         <mj-text color="#55575d" font-size="12px">
@@ -42,5 +77,6 @@
         </mj-text>
       </mj-column>
     </mj-section>
+    
   </mj-body>
 </mjml>
