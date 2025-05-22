@@ -1,0 +1,86 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="'Montserrat', Helvetica, Arial, sans-serif" />
+      <mj-text color="#333333" font-size="16px" line-height="24px" />
+      <mj-section background-color="#ffffff" padding="20px 0" />
+      <mj-button background-color="#E17F2C" color="#ffffff" font-size="17px" font-weight="bold" border-radius="5px" padding="14px 28px" />
+    </mj-attributes>
+    <mj-style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+      .cevisama-header-text {
+        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      .cevisama-sub-header {
+        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: #333333;
+      }
+      .cevisama-paragraph {
+        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.7;
+        color: #555555;
+      }
+      .footer-text {
+        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#00E6B8">
+
+    <mj-section background-url="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera-CEVISAMA.jpg" background-size="cover" background-repeat="no-repeat" padding="100px 0 100px 0px">
+      <mj-column>
+      
+        
+          Cevisama: Invirtiendo para tu éxito internacional.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding-top="30px" padding-bottom="30px">
+      <mj-column>
+      <mj-text css-class="cevisama-header-text" align="center" padding-bottom="10px">
+          ¡Potenciamos tu Negocio Global!
+        </mj-text>
+        <mj-text css-class="cevisama-sub-header" padding-bottom="15px">
+          Una Inversión Sin Precedentes para Ti
+        </mj-text>
+        <mj-text css-class="cevisama-paragraph" padding-bottom="15px">
+          En Cevisama, estamos más comprometidos que nunca con tu crecimiento. Hemos destinado una <strong>inversión estratégica y muy significativa</strong> para traer a la feria un volumen aún mayor de <strong>compradores y profesionales clave</strong> de mercados internacionales.
+        </mj-text>
+        <mj-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdeHKsCC-VJDp4Dv_5dpSuGfFrU67umj77PA&s" alt="Global Reach" align="center" width="180px" padding-top="25px" padding-bottom="15px"></mj-image>
+        <mj-text css-class="cevisama-paragraph" padding-bottom="20px">
+          Esta iniciativa se materializa en robustas campañas de marketing global, colaboraciones estratégicas con asociaciones internacionales de alto nivel y programas exclusivos de invitación VIP. Todo ello, cuidadosamente diseñado para asegurar que tu stand sea un punto de encuentro esencial para los contactos más relevantes a nivel mundial.
+        </mj-text>
+        <mj-image src="https://images.neventum.com/2011/139/thumb1024/22_5_b3eecd2b.jpg" alt="Networking at Cevisama" align="center" width="280px" padding-top="25px" padding-bottom="15px"></mj-image>
+        <mj-text css-class="cevisama-sub-header" padding-bottom="15px">
+          Maximiza tus Oportunidades
+        </mj-text>
+        <mj-text css-class="cevisama-paragraph" padding-bottom="20px">
+          Prepárate para aprovechar al máximo las nuevas oportunidades de negocio y solidificar tu presencia global en Cevisama. Tu éxito es nuestra prioridad.
+        </mj-text>
+        <mj-button href="YOUR_CEVISAMA_EXHIBITOR_INFO_URL">
+          Descubre Quién Visitará Cevisama
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#F0E6D8" padding="20px 0">
+      <mj-column>
+        <mj-text font-size="12px" color="#888888" align="center" css-class="footer-text">
+          &copy; 2026 Cevisama. Todos los derechos reservados.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

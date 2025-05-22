@@ -1,25 +1,29 @@
 <mjml version="3.3.3">
   <mj-head>
     <mj-style>
+      /* Aplicamos este degradado a todo el body */
+      .body-background-gradient {
+        background-image: -webkit-linear-gradient(to bottom, #FF0000, #FF5733, #FF5733, #FF5733, #FF0000);
+        background-image: linear-gradient(to bottom, #FF0000, #FF5733, #FF5733, #FF5733, #FF0000);
+        background-color: #FF5733; /* Fallback */
+      }
+      /* Estas clases de degradado para secciones ya no se usarán directamente en el background,
+         pero se mantienen si quisieras aplicarlas a otros elementos internos o si cambias de opinión */
       .gradient-section-middle {
-        /* Degradado de rojo llamativo a naranja */
         background-image: -webkit-linear-gradient(to bottom, #FF0000, #FF5733);
         background-image: linear-gradient(to bottom, #FF0000, #FF5733);
-        /* Fallback */
-        background-color: #FF5733; /* Elige el color que prefieras si el degradado no se ve */
+        background-color: #FF5733;
       }
       .gradient-section-return {
-        /* Degradado de naranja a rojo llamativo */
         background-image: -webkit-linear-gradient(to bottom, #FF5733, #FF0000);
         background-image: linear-gradient(to bottom, #FF5733, #FF0000);
-        /* Fallback */
         background-color: #FF0000;
       }
     </mj-style>
   </mj-head>
-  <mj-body background-color="#F4F4F4" color="#55575d" font-family="Arial, sans-serif">
+  <mj-body css-class="body-background-gradient" color="#55575d" font-family="Arial, sans-serif">
 
-    <mj-section background-color="#FF0000" padding="20px 0" text-align="center">
+    <mj-section padding="20px 0" text-align="center">
       <mj-column>
         <mj-text align="center" color="#ffffff" font-size="24px" font-weight="bold">
           ¡Bienvenido al Sorteo de MotoGP!
@@ -28,7 +32,7 @@
       </mj-column>
     </mj-section>
 
-    <mj-section css-class="gradient-section-middle" padding="20px 0" text-align="center">
+    <mj-section padding="20px 0" text-align="center">
       <mj-column>
         <mj-text align="center" color="#000000" font-size="30px" line-height="28px" padding="0px 25px 15px 25px">
           ¡NO TE PIERDAS LAS DOS ENTRADAS GRATIS DE CHESTE!
@@ -37,27 +41,25 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#FF5733" padding="20px 0" text-align="center">
+    <mj-section padding="20px 0" text-align="center">
       <mj-column>
         <mj-text align="center" color="#000000" font-size="15px" line-height="28px" padding="0px 25px">
           La Feria Dos Ruedas te da la oportunidad de vivir la emoción del motociclismo de cerca. Completa el formulario para obtener tus entradas a la feria <strong>antes del 1 de septiembre</strong> y entra en el sorteo de <strong>¡2 ENTRADAS GRATIS!</strong> para el Gran Premio de Motociclismo de Cheste. ¡No dejes pasar esta increíble oportunidad!
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#FF5733" padding="20px 0" text-align="center">
+    <mj-section padding="20px 0" text-align="center">
       <mj-column>
         <mj-image align="center" padding="10px 25px" src="https://e00-xlk-ue-marca.uecdn.es/uploads/2025/02/04/67a245ed4b03e.jpeg" width="500px"></mj-image>
       </mj-column>
     </mj-section>
-    
 
-    <mj-section css-class="gradient-section-return" padding="20px 0" text-align="center">
+    <mj-section padding="20px 0" text-align="center">
       <mj-column>
-      
-        <mj-button border="3px solid rgb(0, 0, 0)" border-radius="10px" href="https://motogppremier.motogp.com/es/2025-motogp-valencia" font-family="Helvetica" background-color="#ffffff" color="black" border="2px solid #FF0000">
+        <mj-button border="3px solid rgb(0, 0, 0)" border-radius="10px" href="https://motogppremier.motogp.com/es/2025-motogp-valencia" font-family="Helvetica" background-color="#ffffff" color="black">
           ¡PARTICIPA YA!
         </mj-button>
-          <mj-text align="center" color="#333333" font-size="16px" padding-bottom="10px">
+        <mj-text align="center" color="#333333" font-size="16px" padding-bottom="10px">
           Síguenos en redes:
         </mj-text>
         <mj-social font-size="15px" icon-size="30px" mode="horizontal">
@@ -67,16 +69,15 @@
           <mj-social-element name="youtube" href="https://www.youtube.com/saloncomicvalencia" background-color="#FF0000"></mj-social-element>
         </mj-social>
       </mj-column>
-      
     </mj-section>
 
-    <mj-section background-color="#F4F4F4" padding="20px 0" text-align="center">
+    <mj-section padding="20px 0" text-align="center">
       <mj-column>
         <mj-text color="#55575d" font-size="12px">
-          *Términos y condiciones aplican. Participa antes del 1 de septiembre.
+          **\*Términos y condiciones aplican. Participa antes del 1 de septiembre.**
         </mj-text>
       </mj-column>
     </mj-section>
-    
+
   </mj-body>
 </mjml>
