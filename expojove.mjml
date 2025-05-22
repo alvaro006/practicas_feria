@@ -1,0 +1,122 @@
+<mjml>
+  <mj-head>
+    <mj-title>Expojove: ¡Conecta con miles de familias esta Navidad!</mj-title>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <mj-font name="Lilita One" href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" />
+    <mj-font name="Fredoka One" href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" />
+    <mj-attributes>
+      <mj-text font-family="Montserrat, Arial, sans-serif" color="#333333" />
+      <mj-button font-family="Montserrat, Arial, sans-serif" border-radius="8px" font-weight="bold" />
+      <mj-section padding="0" background-color="transparent" />
+    </mj-attributes>
+    <mj-style>
+      /* Colores principales de Expojove */
+      .color-primary { color: #E20074; } /* Rosa vibrante */
+      .color-secondary { color: #FFC107; } /* Amarillo festivo */
+      .color-dark { color: #333333; }
+      .color-white { color: #FFFFFF; }
+
+      /* Estilos para encabezados más llamativos */
+      .heading-main {
+        font-family: 'Lilita One', cursive; /* Fuente llamativa para el título principal */
+        font-size: 44px;
+        font-weight: normal; /* Normalizar peso con esta fuente */
+        line-height: 1.1;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-shadow: 3px 3px 0px rgba(0,0,0,0.2); /* Sombra más pronunciada */
+      }
+    
+
+      /* Sombra para columnas de contenido (simula tarjetas) */
+      .card-shadow {
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1); /* Sombra suave para un toque moderno */
+        border-radius: 12px;
+        overflow: hidden;
+      }
+    
+
+
+      /* Degradado navideño para el body (Rojo-Verde Navideño) */
+      .body-gradient {
+        background-image: linear-gradient(to bottom, #DC143C, #32CD32); /* Rojo Carmin a Verde Lima */
+        background-color: #DC143C; /* Fallback */
+      }
+
+      .padding-section-top { padding-top: 30px; }
+      .padding-section-bottom { padding-bottom: 30px; }
+      .padding-content { padding: 25px; }
+
+      /* Listas mejoradas */
+      ul {
+        padding-left: 20px;
+        margin-top: 10px;
+        line-height: 1.6;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body css-class="body-gradient">
+
+    <mj-section css-class="bg-white" padding-bottom="0">
+      <mj-column>
+        <mj-image src="https://practicas.feriavalencia.com/wp-content/uploads/2025/05/Cabecera_Email_Expojove_2024.jpg" alt="Cabecera Expojove Navidad 2024" align="center" width="550px" padding-bottom="20px"></mj-image>
+        <mj-text font-size="20px" align="center" css-class="heading-main color-primary" padding-bottom="10px">¡Expojove: Tu marca en el corazón de la Navidad!</mj-text>
+        <mj-text align="center" font-size="20px" css-class="color-dark" padding="0 25px 20px 25px">La <strong>oportunidad perfecta</strong> para que tu empresa brille y conecte con miles de familias.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="bg-light-grey" padding-top="20px" padding-bottom="20px">
+      <mj-column css-class="card-shadow" background-color="#FFFFFF" padding="25px">
+        <mj-text font-size="20px" align="center" css-class="heading-section"><strong>¿Buscas IMPACTO? ¡Expojove es la respuesta!<strong></mj-text>
+        <mj-text font-size="18px">Conecta con más de <strong>100.000 visitantes</strong> en la Feria de la Infancia y la Juventud de Valencia.</mj-text>
+        <mj-text font-size="18px">Del <strong>26 de diciembre al 4 de enero</strong>, tu empresa tendrá una plataforma única para:</mj-text>
+        <mj-text font-size="16px">
+          <ul>
+            <li><strong>Promocionar tus productos y servicios</strong> de forma creativa e interactiva.</li>
+            <li><strong>Generar nuevos leads</strong> y fidelizar clientes.</li>
+            <li>Aprovechar una <strong>gran repercusión mediática</strong> y notoriedad.</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="bg-light-grey" padding-top="10px" padding-bottom="20px">
+      <mj-column css-class="card-shadow" background-color="#FFFFFF" padding="25px">
+        <mj-text font-size="20px" align="center"  css-class="heading-section"><strong>¿Listo para Expojove? Así puedes solicitar tus servicios:</strong></mj-text>
+        <mj-text font-size="16px">Es muy sencillo. Te ofrecemos varias opciones para que tu marca no se quede fuera:</mj-text>
+        <mj-text font-size="16px">
+          <ul style="list-style-type: decimal;">
+            <li><strong>Dossier Comercial:</strong> Descarga este documento para conocer todos los detalles sobre cómo exponer y los espacios disponibles.</li>
+            <li><strong>Formulario de Inscripción:</strong> Rellénalo para reservar tu stand y asegurar tu presencia en Expojove.</li>
+            <li><strong>Dossier de Patrocinios:</strong> Si buscas una visibilidad aún mayor, explora nuestras opciones de patrocinio exclusivas.</li>
+          </ul>
+        </mj-text>
+        <mj-text font-size="16px" padding-top="10px">¡Todo lo que necesitas para planificar tu participación está a un clic!</mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+
+    <mj-section >
+      <mj-column>
+        <mj-button background-color="#DC143C" href="URL_DEL_DOSSIER_COMERCIAL_O_FORMULARIO" align="center" css-class="button-main">
+          ¡Quiero Exponer en Expojove!
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section css-class="bg-primary" padding-top="20px" padding-bottom="20px">
+      <mj-column>
+        <mj-text align="center" css-class="color-white" font-size="14px">¿Dudas? Llámanos al <strong>96 386 1141</strong> o escríbenos a <a href="mailto:vchulvi@feriavalencia.com" style="color: #FFFFFF; text-decoration: underline;">vchulvi@feriavalencia.com</a>.</mj-text>
+        <mj-text align="center" css-class="color-white" font-size="12px" padding-top="10px">© 2024 Expojove. Todos los derechos reservados.</mj-text>
+        <mj-text align="center" css-class="color-white" font-size="10px" padding-top="5px">
+          <a href="[ENLACE_BAJA]" style="color:#FFFFFF; text-decoration: underline;">Gestionar mis preferencias de comunicación</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
