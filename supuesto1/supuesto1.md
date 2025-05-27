@@ -42,36 +42,36 @@
 ### 2. Análisis y Planificación de la Campaña
 
 #### 2.1. Análisis de Requerimientos
-- **Público Objetivo:** El público que se orienta este trabajo es para los amantes del motociclismo o gente joven de 12 a 35 años en general.
+- **Público Objetivo:** El público que se orienta este trabajo es para los ammanttes de la lectura en general y gente aficionada al anime o manga de edad desde niños hasta adultos.
 
 #### 2.2. Análisis DAFO y Competencia
 - **DAFO de la Campaña:** Identificación de Debilidades, Amenazas, Fortalezas y Oportunidades. 
 
   **DEBILIDADES**
-  - Contraste: El botón de llamada a la acción podría destacar más.
+  - Dependencia de Imágenes Externas-
+  - Posibles Problemas de Compatibilidad de Fuentes Personalizadas
+
   
   **AMENAZAS**
-  - Redes Sociales: Enlace de YouTube inactivo y enlaces a redes sociales incorrectos.
-  - Versión MJML: Uso de versión antigua, considerar la más reciente.
+  - Filtros de Spam
+  - Competencia de Otros Eventos
   - Saturación del usuario: Riesgo de que el correo sea ignorado o marcado como spam.
-  - Problemas de compatibilidad: Visualización inconsistente del correo en diferentes clientes de correo (especialmente Outlook) o dispositivos.
-  - Ciberseguridad: Riesgo de intentos de phishing o suplantación de identidad que dañen la confianza en la marca.
 
   **FORTALEZAS**
-  - Uso de MJML: Permite un diseño responsive robusto y optimizado para email.
-  - Integración Tecnológica: Capacidad para automatizar envíos con AWS EC2, Node.js y bases de datos MySQL.
-  - Personalización Avanzada: Posibilidad de crear correos altamente personalizados usando datos de suscriptores.
-  - Control de Versiones: Uso de GitHub para un desarrollo colaborativo y organizado.
+  - Diseño Visual Atractivo y Temático.
+  - Estructura Clara y Jerárquica.
+  - Elementos Interactivos y Llamadas a la Acción (CTAs)
+  - Inclusión de Redes Sociales
 
   **OPORTUNIDADES**
-  - Expansión de Audiencia: Utilizar la integración con redes sociales para alcanzar nuevos segmentos y amplificar el mensaje.
-  - Análisis y Optimización: Emplear el feedback del test con usuarios para mejorar continuamente la efectividad de las campañas.
-  - Diferenciación: Destacar frente a la competencia con un diseño responsive avanzado y una experiencia de usuario cuidada.
+  - Contenido Dinámico
+  - Patrocinios/Colaboraciones
+  - Segmentación y Personalización
 
 - **Análisis de la Competencia:** He visto unas cuantas newsletters y la verdad que en cuanto a diseño el resto las he visto más estéticas y bonitas, pero la mía, en mi opinión, atrae más la atención del público.
 
 #### 2.3. Objetivos de la Campaña
-- **Definición de objetivos:** Que vean la newsletter y cuando vean la frase principal de sorteo de MotoGP, que se paren a leer un poco y les den ganas de darle al botón de participar.
+- **Definición de objetivos:** Que vean la newsletter y cuando vean la frase principal del Salon del comic, que se paren a leer un poco y les den ganas de darle al botón de participar.
 
 ### 3. Diseño de la Campaña
 
@@ -79,10 +79,10 @@
 - **Innovación y Creatividad:** Los colores y la manera de llamar la atención del público.
 
 #### 3.2. Mockup (Figma)
-- **Representación Visual Previa:** [ENLACE FIGMA](https://www.figma.com/design/qV5aoPRPLU5Aln5oiMx71t/Untitled?node-id=0-1&t=stbxYlJ55DusFhb8-1)
+- **Representación Visual Previa:** [ENLACE FIGMA](https://www.figma.com/design/QKgsSzZl3QFsdNSkp4NFeF/Untitled?node-id=0-1&t=t4bWppePv70JkaPo-1)
 - **Justificación del Diseño:**
-  - **Audiencia:** Amantes de los vehículos a dos ruedas y ghttps://github.com/alvaro006/practicas_feria.gitente joven.
-  - **Motivación:** Porque me gusta bastante la competición de automóviles.
+  - **Audiencia:** Amantes de la lectura y los mangas.
+  - **Motivación:** Porque me gusta bastante la lectura en mis tiempos libres
   - **Elementos Visuales Clave:** Las cosas más relevantes de este código serían el color degradado, el botón añadiéndole curva con `border-radius` y también el `mj-divider` para separar contenido.
   - **Jerarquía Visual:** Primero ves el título relevante, luego pasas a las imágenes, después al texto explicativo y por último al botón de acceso a la web.
 
