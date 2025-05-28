@@ -109,8 +109,7 @@
 - **Tecnologías:** AWS EC2, MJML, Node.js (JavaScript).
 
 #### 5.2. Automatización del Envío
-- **Lectura de Datos:** Proceso para leer datos de clientes.
-- **Integración de Envío:** Descripción de la automatización del envío de correos utilizando Gmail u O365.
+- [Documentacion AWS proceso entero]()
 
 ### 6. Integración con Redes Sociales
 
