@@ -93,9 +93,7 @@
 ### 4. Test con Usuarios
 
 #### 4.1. Metodología y Selección de Muestra
-- **Participantes:** Descripción de la muestra (al menos 10 personas reales: profesores, compañeros, familiares).
-- **Herramienta:** Indicar la herramienta usada para el formulario (Microsoft Forms, Google Forms o similar).
-
+-[ENLACE FORMULARIO GOOGLE FORMS](https://docs.google.com/forms/d/e/1FAIpQLSfGSO_K2KzLAyvUH52GzwNddG9pGBTl-v7diAU57eO5INwKCQ/viewform?usp=dialog)
 #### 4.2. Feedback y Análisis
 - **Recogida de Datos:** Proceso para recolectar las respuestas de la encuesta.
 - **Análisis de Resultados:** Presentación de los resultados de la encuesta, incluyendo gráficos y conclusiones clave.
@@ -108,8 +106,7 @@
 #### 5.1. Configuración del Entorno
 - **Tecnologías:** AWS EC2, MJML, Node.js (JavaScript).
 
-#### 5.2. Automatización del Envío
-- [Documentacion AWS proceso entero]()
+#### 5.2 [Documentacion AWS proceso entero](https://github.com/alvaro006/practicas_feria/blob/master/supuesto1/documentacion%20AWS.md)
 
 ### 6. Integración con Redes Sociales
 

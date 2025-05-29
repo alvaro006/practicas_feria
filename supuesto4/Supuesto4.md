@@ -92,25 +92,15 @@
 
 ### 4. Test con Usuarios
 
-#### 4.1. Metodología y Selección de Muestra
-- **Participantes:** Descripción de la muestra (al menos 10 personas reales: profesores, compañeros, familiares).
-- **Herramienta:** Indicar la herramienta usada para el formulario (Microsoft Forms, Google Forms o similar).
-
-#### 4.2. Feedback y Análisis
-- **Recogida de Datos:** Proceso para recolectar las respuestas de la encuesta.
-- **Análisis de Resultados:** Presentación de los resultados de la encuesta, incluyendo gráficos y conclusiones clave.
-
-#### 4.3. Rediseño (si aplica)
-- **Iteración del Diseño:** He mejorado más la apariencia en general y también le he puesto más contenido haciendo publicidad a la feria.
+#### [ENLACE FORMULARIO GOOGLE FORMS](https://docs.google.com/forms/d/e/1FAIpQLSdNwq3uoDtYcWPwkdTzurf_PDESuuALP2hj8tw5lCEp3cNjjg/viewform?usp=dialog)
 
 ### 5. Desarrollo y Envío de Correos
 
 #### 5.1. Configuración del Entorno
 - **Tecnologías:** AWS EC2, MJML, Node.js (JavaScript).
 
-#### 5.2. Automatización del Envío
-- **Lectura de Datos:** Proceso para leer datos de clientes.
-- **Integración de Envío:** Descripción de la automatización del envío de correos utilizando Gmail u O365.
+#### 5.2 [Documentacion AWS proceso entero](https://github.com/alvaro006/practicas_feria/blob/master/supuesto1/documentacion%20AWS.md)
+
 
 ### 6. Integración con Redes Sociales
 

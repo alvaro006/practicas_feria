@@ -35,7 +35,7 @@
     <mj-section padding="20px 0" text-align="center">
       <mj-column>
         <mj-text align="center" color="#000000" font-size="30px" line-height="28px" padding="0px 25px 15px 25px">
-          ¡NO TE PIERDAS LAS DOS ENTRADAS GRATIS DE CHESTE!
+          ¡NO TE PIERDAS LAS DOS ENTRADAS GRATIS DE CHESTE {{name}}!
         </mj-text>
         <mj-divider border-width="5px" border-style="solid" border-color="black" />
       </mj-column>

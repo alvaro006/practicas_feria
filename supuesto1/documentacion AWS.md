@@ -107,3 +107,6 @@
 ## 10. Ejecución del Script
 
 - **`node index.js`**: Ejecuta la aplicación Node.js. Inicia el script `index.js` para realizar todas las operaciones.
+
+## 10. DOCUMENTACION DE IMAGENES AWS
+- [ENLACE DOCUMENTACIONAWS2.0]()
