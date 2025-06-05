@@ -109,4 +109,4 @@
 - **`node index.js`**: Ejecuta la aplicación Node.js. Inicia el script `index.js` para realizar todas las operaciones.
 
 ## 10. DOCUMENTACION DE IMAGENES AWS
-- [ENLACE DOCUMENTACIONAWS2.0]()
+- [ENLACE DOCUMENTACIONAWS2.0](https://github.com/alvaro006/practicas_feria/blob/master/supuesto1/documentacionAWS2.0.md)
